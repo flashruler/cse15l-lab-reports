@@ -1,4 +1,4 @@
-Jay's Repository of CSE 15L lab reports.
+# Jay's Repository of CSE 15L lab reports.
 
 [Week 0 Lab Report](lab-report-1-week-0.html)
 
