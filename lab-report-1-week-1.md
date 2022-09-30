@@ -11,7 +11,7 @@ This tutorial makes the assumption that you are using an OSX operating system, m
 
 ### <a name="vscode">
 # Installing VS Code
-</a>
+
 The IDE used for this setup is Microsoft's Visual Studio Code. The download link can be found here:
 
 ![Image](screenshots/week1/vscodeinstall.png)
@@ -22,7 +22,7 @@ Follow the steps until VS code is properly installed on your system.
 
 
 ### <a name="remote">
-# Remote Connection</a>
+# Remote Connection
 
 In order to connect to ieng6 remote servers, prerequisite steps have to be fulfilled.
 
@@ -43,7 +43,7 @@ Once the passwords have been set up, open VScode and create a new terminal.
 Congratulations you are now sucessfully connected to the ieng6 server.
 
 ### <a name="commands">
-# Trying Some Commands</a>
+# Trying Some Commands
 
 Once connected to the terminal, try using the `ls` command.
 
