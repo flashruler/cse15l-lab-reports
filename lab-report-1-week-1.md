@@ -97,6 +97,10 @@ The beauty of terminal is that every command is saved meaning that you only have
 
 By setting up the SSH key and having all my prior commands saved, I am able to udate the `WhereAmI.java` file in 10 keystrokes.
 
+![Image](screenshots/week1/optimizept1.png)
+
+![Image](screenshots/week1/optimizept2.png)
+
 The process I underwent is:
 - update the java file
 - up arrow to scp the java file into remote server (2)
