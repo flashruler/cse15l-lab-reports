@@ -2,7 +2,7 @@
 
 # Simplest Search Engine
 
-<pre><code>import java.io.IOException;
+`import java.io.IOException;
 import java.net.URI;
 import java.util.*;
 
@@ -52,8 +52,9 @@ public class SearchEngine {
 
         Server.start(port, new Handler());
     }
-}
-</code><pre>
+}`
+
+
 
 
 
