@@ -7,7 +7,6 @@ import java.net.URI;
 import java.util.*;
 
 class Handler implements URLHandler {
-    // The biggest flex of the day is getting this to work first try in my cse lab
     int num = 0;
     ArrayList<String> queries = new ArrayList<String>();
     
