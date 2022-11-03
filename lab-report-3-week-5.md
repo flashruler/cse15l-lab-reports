@@ -32,7 +32,7 @@ An example for this is when searching for specific words quickly without forcing
     jaybuens@Jays-MacBook-Pro-2 docsearch % grep -i -m 5 "cell" technical/plos/journal.pbio.0020001.txt
         to the sciences will be an excellent investment by developing nations in terms of
 
-# less -N, /pattern, m
+# less -N, m
 
 Example 1: -N
 
@@ -56,4 +56,18 @@ The -N command in less allows the user to display line numbers when reading a fi
      13 en echoed recently by
      14         several scientists, who present overwhelming evidence for the di
      14 sparity in scientific
+
+example 2: m
+
+The m command along with a letter after it acts as a bookmark that enables you to mark a line to reference back to which is useful for referencing specific lines.
+
+when pressing a again, it takes you back to the marked line.
+
+Unfortunately whenever i set a mark, I cant go back to that position on my terminal.
+
+![Image](screenshots/week5/markfail.png)
+
+
+For the other examplex, specifically the ones in file, my terminal isn't working properly and the find commands wouldnt work as intended.
+
 
