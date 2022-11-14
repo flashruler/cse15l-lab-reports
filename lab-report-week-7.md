@@ -19,6 +19,7 @@ The result is:
 ## Part 2
 
 Edit local and upload: 33 seconds
+
 Edit on remote: 27 seconds
 
 Editing locally, ive found that saving in vscode then going to my terminal and doing the scp command makes use of unnecessary time.
