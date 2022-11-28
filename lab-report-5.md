@@ -86,7 +86,9 @@ Finding ListExamples.java
 
 - we do an if statement searching for `ListExamples.java`
 - if it exists, we use cp to copy it from the current directory we are in and into the parent directory.
-- if it is not found, it prints a statement saying that the file is not found or incorrect file and to basically check for formatting/naming.
+
+- if it is not found, it prints a statement saying that the file is not found or incorrect file and to basically check for formatting/naming. (this line does not run)
+
 - it then cd's back up to the parent directory
 -successful, no stdout/stderr
 - return code 0
@@ -153,6 +155,8 @@ Presenting results to user
     cat Result.txt
 
 - The if statement checks if `TOTAL_TESTS` equals the amount of successful tests in `SUCCESS`
-- else, it will say error then do `TOTAL_TESTS` minus `FAILURES` over seven to show how many tests out of seven were passed.
+
+- else, it will say error then do `TOTAL_TESTS` minus `FAILURES` over seven to show how many tests out of seven were passed. (this line does not run)
+
 - once it exits the if statement, it will print the junit results saved in `Result.txt`.
-- no return codes
+- return code 0
