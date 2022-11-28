@@ -36,7 +36,6 @@
     then
         echo "7/7 tests passed."
     else
-        echo "error"
         echo "$(($TOTAL_TESTS-$FAILURES))/7 tests passed."
     fi
     cat Result.txt
@@ -128,7 +127,7 @@ utilizing grep
 
     grep "Tests run:" < Result.txt > ResultScore.txt
     VARS=(`grep -Eo '[0-9]{1,2}' < resultScore.txt`)
-    
+
 - grep is used to grab the line where the successful and failed tests are printed.
 - return code 0 for this statement
 - for `VARS`, grep is then ran in extended regular expression and searches for only matching values from 0-9 two times.
@@ -151,7 +150,6 @@ Presenting results to user
     then
         echo "7/7 tests passed."
     else
-        echo "error"
         echo "$(($TOTAL_TESTS-$FAILURES))/7 tests passed."
     fi
     cat Result.txt
