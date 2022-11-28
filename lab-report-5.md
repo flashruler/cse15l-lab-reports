@@ -98,8 +98,8 @@ Compiling
     javac -cp $PTH *.java 2> compile_error.txt
 
 - we do javac on the path we set earlier and if there are any compile errors, it is sent to compile_error.txt
--no stdout if successful and return code 0
--error message is sent to compile error using stderr and the return code is 1
+- no stdout if successful and return code 0
+- error message is sent to compile error using stderr and the return code is 1
 
 Checks for error codes
 
