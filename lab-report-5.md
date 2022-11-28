@@ -44,12 +44,15 @@
 ## Screenshots of Three Submissions
 
 Compile Error (3rd repo)
+
 ![image](screenshots/week8/image4.png)
 
 Successful Test (2nd repo)
+
 ![image](screenshots/week8/image2.png)
 
 Repo with the starter code
+
 ![image](screenshots/week8/image3.png)
 
 ## Trace of the Successful Test
