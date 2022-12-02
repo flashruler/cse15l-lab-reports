@@ -4,14 +4,29 @@
 
 ![image](screenshots/week7/before.png)
 
+Initial Keystrokes:
+
+`<shift> <;> `
+
+(2 keystrokes which lets me input the command)
+
 The commands I used is this one line command:
 
-`:13,32 s/start/base/ <Enter>`
+`13,32 s/start/base/`
+
+![image](screenshots/week7/screenshot.png)
+(this command was written all in 1 line)
 
 - The 13,32 denotes which lines the command will run
 - the s represents substitute
 - the first term is the one we want to replace, in this case `start`
 -the second term is what we want to replace it with, in this case `base`
+
+ `<Enter>`
+ 
+ (1 keystroke which sends the command to run on the entire file)
+
+ Total Keystrokes: 3 (not including the commands)
 
 The result is:
 ![image](screenshots/week7/after.png)
